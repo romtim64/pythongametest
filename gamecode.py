@@ -1,5 +1,5 @@
 import gamemap as gm
-
+import time
 class enemy:
     def __init__(self,type,health,damage,posx,posy):
         self._type = type
