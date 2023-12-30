@@ -201,7 +201,11 @@ while fin == 0: #пока игра не завершена
 
     gamemapprint(gm.gmap,player[2]) #отрисовываем карту с новым положением игрока и монстра(в комнате игрока)
 
-if fin == 1:
+elif fin == 0:
+    print('error') 
+elif fin == 1:
     print('you lose')
 elif fin == 2:
     print('you win')
+elif fin >= 3:
+    print('unknown ending') 
