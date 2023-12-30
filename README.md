@@ -1,2 +1,2 @@
 # pythongametest
- isaacparodygameonpython
+rouglike game on python
